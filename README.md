@@ -1,2 +1,5 @@
 # k8s-fluetnd
-Fluentd kubernetes deployment for log forwarding to S3, Kafka, ElasticSearch.
+Fluentd kubernetes log forwarding deployment.
+
+## Installed plugins:
+fluent-plugin-anonymizer
