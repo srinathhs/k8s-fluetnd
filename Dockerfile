@@ -23,7 +23,7 @@ RUN apk update \
  && gem install fluent-plugin-netflow \
  && gem install fluent-plugin-nats \
  && gem install fluent-plugin-nats-streaming \
- && fluent-plugin-grafana-loki \
+ && gem install fluent-plugin-grafana-loki \
  && gem sources --clear-all \
  && apk del .build-deps \
  && rm -rf /home/fluent/.gem/ruby/2.5.0/cache/*.gem \
