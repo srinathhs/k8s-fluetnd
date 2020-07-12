@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.12
 MAINTAINER Srinath H S <srinath.hs@gmail.com>
 
 RUN apk update \
